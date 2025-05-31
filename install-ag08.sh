@@ -68,6 +68,8 @@ ACTION==\"remove\", SUBSYSTEM==\"sound\", ATTRS{idVendor}==\"0499\", ATTRS{idPro
 case "$1" in
   install)
     echo "Install..."
+    sudo apt update
+    sudo apt install -y pulseaudio-utils
     echo "$INSTALL_SCRIPT" | sudo tee "$SCRIPT_PATH" > /dev/null
     sudo chmod +x "$SCRIPT_PATH"
 

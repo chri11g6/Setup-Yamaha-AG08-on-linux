@@ -18,13 +18,13 @@ The script **automatically detects** when the AG08 is connected via USB and appl
 ## 📦 Installation
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/chri11g6/Setup-Yamaha-AG08-on-linux/refs/tags/v0.0.1/install-ag08.sh | bash -s install
+curl -sSL https://raw.githubusercontent.com/chri11g6/Setup-Yamaha-AG08-on-linux/refs/tags/v0.0.2/install-ag08.sh | bash -s install
 ```
 
 ## 🧹 Uninstallation
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/chri11g6/Setup-Yamaha-AG08-on-linux/refs/tags/v0.0.1/install-ag08.sh | bash -s uninstall
+curl -sSL https://raw.githubusercontent.com/chri11g6/Setup-Yamaha-AG08-on-linux/refs/tags/v0.0.2/install-ag08.sh | bash -s uninstall
 ```
 
 ## 🖼️ Screenshots
